@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gg_android_screen_capture", "gg_android_screen_capture.vcxproj", "{C2305302-5DD5-4104-B995-6E6EB42284F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8} = {7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ggbase", "..\..\Base\proj.win\ggbase.vcxproj", "{7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2305302-5DD5-4104-B995-6E6EB42284F0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2305302-5DD5-4104-B995-6E6EB42284F0}.Debug|Win32.Build.0 = Debug|Win32
+		{C2305302-5DD5-4104-B995-6E6EB42284F0}.Release|Win32.ActiveCfg = Release|Win32
+		{C2305302-5DD5-4104-B995-6E6EB42284F0}.Release|Win32.Build.0 = Release|Win32
+		{7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8}.Debug|Win32.Build.0 = Debug|Win32
+		{7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8}.Release|Win32.ActiveCfg = Release|Win32
+		{7EF9BF4B-3706-49E4-ABCB-7686FB9B5ED8}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

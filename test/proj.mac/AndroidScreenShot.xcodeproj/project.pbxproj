@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2541B3231794F2AD004033BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541B3221794F2AD004033BC /* CoreGraphics.framework */; };
+		2541B3291794F740004033BC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CFFB61178D705800D71811 /* AppKit.framework */; };
+		2541B32D1794F759004033BC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541B32C1794F759004033BC /* CoreFoundation.framework */; };
+		2590F46A18891147004901F0 /* TestC11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2590F46818891147004901F0 /* TestC11.cpp */; };
+		25BA9F6717B0DE900006CD06 /* libscreenshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA9F6417B0DE7C0006CD06 /* libscreenshot.a */; };
+		25BA9F6B17B0DEDE0006CD06 /* Base.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA9F6A17B0DEDE0006CD06 /* Base.dylib */; };
+		25CFFB5F178D705800D71811 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CFFB5E178D705800D71811 /* Cocoa.framework */; };
+		25CFFB69178D705900D71811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25CFFB67178D705900D71811 /* InfoPlist.strings */; };
+		25CFFB6B178D705900D71811 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CFFB6A178D705900D71811 /* main.m */; };
+		25CFFB6F178D705900D71811 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 25CFFB6D178D705900D71811 /* Credits.rtf */; };
+		25CFFB72178D705900D71811 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 25CFFB71178D705900D71811 /* AppDelegate.mm */; };
+		25CFFB75178D705900D71811 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CFFB73178D705900D71811 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25BA9F6317B0DE7C0006CD06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BA9F5817B0DE7C0006CD06 /* screenshot.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 25BA9F2917B0DD260006CD06;
+			remoteInfo = screenshot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2541B3221794F2AD004033BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2541B32C1794F759004033BC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2590F46818891147004901F0 /* TestC11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestC11.cpp; sourceTree = "<group>"; };
+		2590F46918891147004901F0 /* TestC11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestC11.h; sourceTree = "<group>"; };
+		25BA9F5817B0DE7C0006CD06 /* screenshot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = screenshot.xcodeproj; path = ../../proj.mac/screenshot.xcodeproj; sourceTree = "<group>"; };
+		25BA9F6A17B0DEDE0006CD06 /* Base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Base.dylib; path = "../../../../../Library/Developer/Xcode/DerivedData/AndroidScreenShot-dczpkzqgsummgdbdsseytgymftcx/Build/Products/Debug/Base.dylib"; sourceTree = "<group>"; };
+		25CFFB5A178D705800D71811 /* AndroidScreenShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidScreenShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25CFFB5E178D705800D71811 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		25CFFB61178D705800D71811 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		25CFFB62178D705800D71811 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		25CFFB63178D705800D71811 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		25CFFB66178D705900D71811 /* AndroidScreenShot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AndroidScreenShot-Info.plist"; sourceTree = "<group>"; };
+		25CFFB68178D705900D71811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		25CFFB6A178D705900D71811 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25CFFB6C178D705900D71811 /* AndroidScreenShot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AndroidScreenShot-Prefix.pch"; sourceTree = "<group>"; };
+		25CFFB6E178D705900D71811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		25CFFB70178D705900D71811 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25CFFB71178D705900D71811 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		25CFFB74178D705900D71811 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25CFFB57178D705800D71811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BA9F6B17B0DEDE0006CD06 /* Base.dylib in Frameworks */,
+				25BA9F6717B0DE900006CD06 /* libscreenshot.a in Frameworks */,
+				2541B32D1794F759004033BC /* CoreFoundation.framework in Frameworks */,
+				2541B3291794F740004033BC /* AppKit.framework in Frameworks */,
+				2541B3231794F2AD004033BC /* CoreGraphics.framework in Frameworks */,
+				25CFFB5F178D705800D71811 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BA9F5917B0DE7C0006CD06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BA9F6417B0DE7C0006CD06 /* libscreenshot.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25CFFB4F178D705800D71811 = {
+			isa = PBXGroup;
+			children = (
+				25BA9F6A17B0DEDE0006CD06 /* Base.dylib */,
+				25BA9F5817B0DE7C0006CD06 /* screenshot.xcodeproj */,
+				25CFFB64178D705800D71811 /* AndroidScreenShot */,
+				25CFFB5D178D705800D71811 /* Frameworks */,
+				25CFFB5B178D705800D71811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25CFFB5B178D705800D71811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25CFFB5A178D705800D71811 /* AndroidScreenShot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25CFFB5D178D705800D71811 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2541B32C1794F759004033BC /* CoreFoundation.framework */,
+				2541B3221794F2AD004033BC /* CoreGraphics.framework */,
+				25CFFB5E178D705800D71811 /* Cocoa.framework */,
+				25CFFB60178D705800D71811 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25CFFB60178D705800D71811 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25CFFB61178D705800D71811 /* AppKit.framework */,
+				25CFFB62178D705800D71811 /* CoreData.framework */,
+				25CFFB63178D705800D71811 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		25CFFB64178D705800D71811 /* AndroidScreenShot */ = {
+			isa = PBXGroup;
+			children = (
+				25CFFB70178D705900D71811 /* AppDelegate.h */,
+				25CFFB71178D705900D71811 /* AppDelegate.mm */,
+				25CFFB73178D705900D71811 /* MainMenu.xib */,
+				25CFFB65178D705900D71811 /* Supporting Files */,
+				2590F46818891147004901F0 /* TestC11.cpp */,
+				2590F46918891147004901F0 /* TestC11.h */,
+			);
+			path = AndroidScreenShot;
+			sourceTree = "<group>";
+		};
+		25CFFB65178D705900D71811 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25CFFB66178D705900D71811 /* AndroidScreenShot-Info.plist */,
+				25CFFB67178D705900D71811 /* InfoPlist.strings */,
+				25CFFB6A178D705900D71811 /* main.m */,
+				25CFFB6C178D705900D71811 /* AndroidScreenShot-Prefix.pch */,
+				25CFFB6D178D705900D71811 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25CFFB59178D705800D71811 /* AndroidScreenShot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25CFFB78178D705900D71811 /* Build configuration list for PBXNativeTarget "AndroidScreenShot" */;
+			buildPhases = (
+				25CFFB56178D705800D71811 /* Sources */,
+				25CFFB57178D705800D71811 /* Frameworks */,
+				25CFFB58178D705800D71811 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroidScreenShot;
+			productName = AndroidScreenShot;
+			productReference = 25CFFB5A178D705800D71811 /* AndroidScreenShot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25CFFB51178D705800D71811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Liqu;
+			};
+			buildConfigurationList = 25CFFB54178D705800D71811 /* Build configuration list for PBXProject "AndroidScreenShot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 25CFFB4F178D705800D71811;
+			productRefGroup = 25CFFB5B178D705800D71811 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 25BA9F5917B0DE7C0006CD06 /* Products */;
+					ProjectRef = 25BA9F5817B0DE7C0006CD06 /* screenshot.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				25CFFB59178D705800D71811 /* AndroidScreenShot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		25BA9F6417B0DE7C0006CD06 /* libscreenshot.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libscreenshot.a;
+			remoteRef = 25BA9F6317B0DE7C0006CD06 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25CFFB58178D705800D71811 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25CFFB69178D705900D71811 /* InfoPlist.strings in Resources */,
+				25CFFB6F178D705900D71811 /* Credits.rtf in Resources */,
+				25CFFB75178D705900D71811 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25CFFB56178D705800D71811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2590F46A18891147004901F0 /* TestC11.cpp in Sources */,
+				25CFFB6B178D705900D71811 /* main.m in Sources */,
+				25CFFB72178D705900D71811 /* AppDelegate.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25CFFB67178D705900D71811 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25CFFB68178D705900D71811 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		25CFFB6D178D705900D71811 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25CFFB6E178D705900D71811 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		25CFFB73178D705900D71811 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25CFFB74178D705900D71811 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25CFFB76178D705900D71811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		25CFFB77178D705900D71811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		25CFFB79178D705900D71811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AndroidScreenShot/AndroidScreenShot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					MACOSX,
+				);
+				INFOPLIST_FILE = "AndroidScreenShot/AndroidScreenShot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/AndroidScreenShot-dczpkzqgsummgdbdsseytgymftcx/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../Base/include\" \"$(SRCROOT)/../../Classes\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		25CFFB7A178D705900D71811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AndroidScreenShot/AndroidScreenShot-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MACOSX;
+				INFOPLIST_FILE = "AndroidScreenShot/AndroidScreenShot-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/AndroidScreenShot-dczpkzqgsummgdbdsseytgymftcx/Build/Products/Debug\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../Base/include\" \"$(SRCROOT)/../../Classes\"";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25CFFB54178D705800D71811 /* Build configuration list for PBXProject "AndroidScreenShot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CFFB76178D705900D71811 /* Debug */,
+				25CFFB77178D705900D71811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25CFFB78178D705900D71811 /* Build configuration list for PBXNativeTarget "AndroidScreenShot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25CFFB79178D705900D71811 /* Debug */,
+				25CFFB7A178D705900D71811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25CFFB51178D705800D71811 /* Project object */;
+}
