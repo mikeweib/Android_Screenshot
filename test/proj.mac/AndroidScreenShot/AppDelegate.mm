@@ -13,7 +13,6 @@
 #import <Carbon/Carbon.h>
 #import <QTKit/QTKit.h>
 #include "AdbHelper.h"
-#include "TestC11.h"
 
 class fbCallback : public RawImageCallback {
     
@@ -42,10 +41,6 @@ class fbCallback : public RawImageCallback {
 }
 
 - (IBAction)onButton:(id)sender {
-    SubClass* t = new SubClass();
-    t->test(1);
-    delete t;
-    
     // async called
     AdbHelper::getInstance()->asyncGetFrameBuffer("127.0.0.1", 5037, "30315F6D9BCD00EC");
     

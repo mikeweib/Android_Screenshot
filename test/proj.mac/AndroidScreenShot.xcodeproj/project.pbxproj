@@ -10,7 +10,6 @@
 		2541B3231794F2AD004033BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541B3221794F2AD004033BC /* CoreGraphics.framework */; };
 		2541B3291794F740004033BC /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CFFB61178D705800D71811 /* AppKit.framework */; };
 		2541B32D1794F759004033BC /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2541B32C1794F759004033BC /* CoreFoundation.framework */; };
-		2590F46A18891147004901F0 /* TestC11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2590F46818891147004901F0 /* TestC11.cpp */; };
 		25BA9F6717B0DE900006CD06 /* libscreenshot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA9F6417B0DE7C0006CD06 /* libscreenshot.a */; };
 		25BA9F6B17B0DEDE0006CD06 /* Base.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BA9F6A17B0DEDE0006CD06 /* Base.dylib */; };
 		25CFFB5F178D705800D71811 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CFFB5E178D705800D71811 /* Cocoa.framework */; };
@@ -34,8 +33,6 @@
 /* Begin PBXFileReference section */
 		2541B3221794F2AD004033BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2541B32C1794F759004033BC /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		2590F46818891147004901F0 /* TestC11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestC11.cpp; sourceTree = "<group>"; };
-		2590F46918891147004901F0 /* TestC11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestC11.h; sourceTree = "<group>"; };
 		25BA9F5817B0DE7C0006CD06 /* screenshot.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = screenshot.xcodeproj; path = ../../proj.mac/screenshot.xcodeproj; sourceTree = "<group>"; };
 		25BA9F6A17B0DEDE0006CD06 /* Base.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Base.dylib; path = "../../../../../Library/Developer/Xcode/DerivedData/AndroidScreenShot-dczpkzqgsummgdbdsseytgymftcx/Build/Products/Debug/Base.dylib"; sourceTree = "<group>"; };
 		25CFFB5A178D705800D71811 /* AndroidScreenShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroidScreenShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,8 +122,6 @@
 				25CFFB71178D705900D71811 /* AppDelegate.mm */,
 				25CFFB73178D705900D71811 /* MainMenu.xib */,
 				25CFFB65178D705900D71811 /* Supporting Files */,
-				2590F46818891147004901F0 /* TestC11.cpp */,
-				2590F46918891147004901F0 /* TestC11.h */,
 			);
 			path = AndroidScreenShot;
 			sourceTree = "<group>";
@@ -223,7 +218,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2590F46A18891147004901F0 /* TestC11.cpp in Sources */,
 				25CFFB6B178D705900D71811 /* main.m in Sources */,
 				25CFFB72178D705900D71811 /* AppDelegate.mm in Sources */,
 			);
@@ -319,7 +313,6 @@
 		25CFFB79178D705900D71811 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndroidScreenShot/AndroidScreenShot-Prefix.pch";
@@ -342,7 +335,6 @@
 		25CFFB7A178D705900D71811 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AndroidScreenShot/AndroidScreenShot-Prefix.pch";
